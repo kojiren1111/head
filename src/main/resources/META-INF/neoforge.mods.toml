@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "headphones"
+version = "1.0.0"
+displayName = "Headphones"
+description = '''
+Wearable headphones with noise cancelling. Hostile, neutral, ambient and weather sounds are muted while worn; music and jukebox discs stay audible.
+'''
+
+[[dependencies.headphones]]
+modId = "neoforge"
+type = "required"
+versionRange = "[26.3,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.headphones]]
+modId = "minecraft"
+type = "required"
+versionRange = "[26.3,26.4)"
+ordering = "NONE"
+side = "BOTH"
